@@ -25,11 +25,13 @@ public class Main {
 
 		if (center > target) { // 中央値より値が大きい場合
 			
-			Arrays.copyOfRange(array, 0, array.length/2);
+			array = Arrays.copyOfRange(array, 0, array.length/2);
+			return BinarySearch(array, target);
 			
 		} else if(center < target) { // 中央値より値が小さい場合
 
 			Arrays.copyOfRange(array, array.length/2, array.length);
+			return BinarySearch(array, target);
 			
 		} else if(center == target) { // 中央値と値が同じ場合
 			
