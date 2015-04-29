@@ -22,11 +22,11 @@ public class Main {
 		} else {
 			System.out.println("12はありませんでした。");
 		}
-		
+
 	}
 
 	private static boolean BinarySearch(int[] array, int target) { 
-		
+
 		int index = array.length/2;
 		int center = array[index]; 
 
@@ -40,7 +40,7 @@ public class Main {
 			return BinarySearch(array, target);
 		} else // 中央値より値が小さい場合
 			array = Arrays.copyOfRange(array, index, array.length);
-			return BinarySearch(array, target);
-		}				
-	}
+		return BinarySearch(array, target);
+	}				
+}
 
