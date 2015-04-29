@@ -22,10 +22,11 @@ public class Main {
 
 	private static boolean BinarySearch(int[] array, int target) {
 		// 中央値を判定
-		int center = array[(array.length / 2)]; 
+		int center = array[(array.length/2)]; 
 
-		if (center > target) {
-		// 中央値より値が大きい場合
+		if (center > target) { // 中央値より値が大きい場合
+			
+			Arrays.copyOfRange(array, 0, array.length/2);
 			
 		} else if(center < target) {
 		// 中央値より値が小さい場合
