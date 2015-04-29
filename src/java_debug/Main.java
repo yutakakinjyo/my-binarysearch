@@ -23,14 +23,21 @@ public class Main {
 	private static boolean BinarySearch(int[] array, int target, int length) {
 		// 中央値を判定
 		int center = array[(length / 2)]; 
-		
+
+		if (center > target) {
 		// 中央値より値が大きい場合
-		
+			
+		} else if(center < target) {
 		// 中央値より値が小さい場合
-		
+
+		} else if(center == target) {
 		// 中央値と値が同じ場合
-		
+			
+		} else {
 		// 見つからなかった場合
+			
+		}
+		
 		return false;
 	}
 	
