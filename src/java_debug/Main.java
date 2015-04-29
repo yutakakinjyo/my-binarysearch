@@ -19,9 +19,9 @@ public class Main {
 
 		// 結果を出力する
 		if(isPresence) {
-			System.out.println("12はありました。");
+			System.out.println(TARGET + "はありました。");
 		} else {
-			System.out.println("12はありませんでした。");
+			System.out.println(TARGET + "はありませんでした。");
 		}
 
 	}
@@ -36,7 +36,7 @@ public class Main {
 			return true;
 		} else if(array.length == 1) { // 見つからなかった場合 
 			return false;
-		} else if (center > target) { // 中央値より値が大きい場合
+		} else if (center < target) { // 中央値より値が大きい場合
 			array = Arrays.copyOfRange(array, 0, index);
 			return BinarySearch(array, target);
 		} else { // 中央値より値が小さい場合
