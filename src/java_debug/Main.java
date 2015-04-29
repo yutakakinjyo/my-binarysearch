@@ -27,9 +27,10 @@ public class Main {
 			
 			Arrays.copyOfRange(array, 0, array.length/2);
 			
-		} else if(center < target) {
-		// 中央値より値が小さい場合
+		} else if(center < target) { // 中央値より値が小さい場合
 
+			Arrays.copyOfRange(array, array.length/2, array.length);
+			
 		} else if(center == target) {
 		// 中央値と値が同じ場合
 			
