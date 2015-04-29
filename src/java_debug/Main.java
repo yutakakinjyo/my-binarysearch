@@ -20,7 +20,7 @@ public class Main {
 		// 結果を出力する
 	}
 
-	private static void BinarySearch(int[] array, int target) {
+	private static boolean BinarySearch(int[] array, int target) {
 		// 中央値を判定
 		
 		// 中央値より値が大きい場合
@@ -30,6 +30,7 @@ public class Main {
 		// 中央値と値が同じ場合
 		
 		// 見つからんかった場合
+		return false;
 	}
 	
 	
