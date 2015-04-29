@@ -32,8 +32,9 @@ public class Main {
 
 			Arrays.copyOfRange(array, array.length/2, array.length);
 			
-		} else if(center == target) {
-		// 中央値と値が同じ場合
+		} else if(center == target) { // 中央値と値が同じ場合
+			
+			return true;
 			
 		} else {
 		// 見つからなかった場合
