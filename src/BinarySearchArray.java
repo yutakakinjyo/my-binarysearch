@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class BinarySearchArray {
 
-	int[] array;
+	private int[] array;
 	
 	public BinarySearchArray(int[] array) {
 		this.array = array;
