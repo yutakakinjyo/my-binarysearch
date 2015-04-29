@@ -15,14 +15,14 @@ public class Main {
 		System.out.println(Arrays.toString(sample_data));
 
 		// 二分探索し、結果を返す
-		BinarySearch(sample_data, 12);
+		BinarySearch(sample_data, 12, sample_data.length);
 
 		// 結果を出力する
 	}
 
-	private static boolean BinarySearch(int[] array, int target) {
+	private static boolean BinarySearch(int[] array, int target, int length) {
 		// 中央値を判定
-		int center = array[(array.length / 2)]; 
+		int center = array[(length / 2)]; 
 		
 		// 中央値より値が大きい場合
 		
