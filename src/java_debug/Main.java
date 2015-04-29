@@ -3,6 +3,8 @@ import java.util.Arrays;
 
 public class Main {
 
+	private static final int TARGET = 12;
+
 	public static void main(String[] args) {
 
 		// サンプル配列の生成
@@ -13,7 +15,7 @@ public class Main {
 		System.out.println(Arrays.toString(sample_data));
 
 		// 二分探索し、結果を返す
-		boolean isPresence = BinarySearch(sample_data, 12);
+		boolean isPresence = BinarySearch(sample_data, TARGET);
 
 		// 結果を出力する
 		if(isPresence) {
