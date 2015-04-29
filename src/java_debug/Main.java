@@ -14,8 +14,14 @@ public class Main {
 		System.out.println(Arrays.toString(sample_data));
 
 		// 二分探索し、結果を返す
+		BinarySearch(sample_data, 12);
 
 		// 結果を出力する
+	}
+
+	private static void BinarySearch(int[] sample_data, int i) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
