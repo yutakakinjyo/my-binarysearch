@@ -35,12 +35,13 @@ public class Main {
 			
 			return true;
 			
-		} else {
-		// 見つからなかった場合
+		} else { // 見つからなかった場合
+
+			return false;
 			
 		}
 		
-		return false;
+
 	}
 	
 	
