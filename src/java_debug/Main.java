@@ -21,8 +21,15 @@ public class Main {
 	}
 
 	private static void BinarySearch(int[] array, int target) {
-		// TODO Auto-generated method stub
+		// 中央値を判定
 		
+		// 中央値より値が大きい場合
+		
+		// 中央値より値が小さい場合
+		
+		// 中央値と値が同じ場合
+		
+		// 見つからんかった場合
 	}
 	
 	
