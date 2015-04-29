@@ -12,9 +12,12 @@ public class Main {
 
 		// ソート
 		Arrays.sort(sample_data);
+		System.out.println(Arrays.toString(sample_data));
 
 		// 二分探索し、結果を返す
 
 		// 結果を出力する
 	}
+	
+	
 }
