@@ -14,7 +14,7 @@ public class Main {
 
 		// ソート
 		array.sort();
-		System.out.println(Arrays.toString(array.array));
+		System.out.println(array);
 
 		// 二分探索し、結果を返す
 		boolean isPresence = BinarySearch(array.array, TARGET);

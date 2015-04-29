@@ -13,4 +13,8 @@ public class BinarySearchArray {
 		Arrays.sort(array);
 	}
 	
+	public String toString() {
+		return Arrays.toString(array);
+	}
+	
 }
