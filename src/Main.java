@@ -13,11 +13,11 @@ public class Main {
 		BinarySearchArray array =  new BinarySearchArray(sample_data);
 
 		// ソート
-		Arrays.sort(sample_data);
-		System.out.println(Arrays.toString(sample_data));
+		array.sort();
+		System.out.println(Arrays.toString(array.array));
 
 		// 二分探索し、結果を返す
-		boolean isPresence = BinarySearch(sample_data, TARGET);
+		boolean isPresence = BinarySearch(array.array, TARGET);
 
 		// 結果を出力する
 		if(isPresence) {

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 
 public class BinarySearchArray {
 
@@ -5,6 +7,10 @@ public class BinarySearchArray {
 	
 	public BinarySearchArray(int[] array) {
 		this.array = array;
+	}
+	
+	public void sort() {
+		Arrays.sort(array);
 	}
 	
 }
