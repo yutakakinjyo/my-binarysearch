@@ -19,7 +19,7 @@ public class Main {
 		// 結果を出力する
 	}
 
-	private static void BinarySearch(int[] sample_data, int i) {
+	private static void BinarySearch(int[] sample_data, int target) {
 		// TODO Auto-generated method stub
 		
 	}
